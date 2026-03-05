@@ -1,92 +1,82 @@
 {
   "auto_collect": [
-    "Bond",
-    "Bonds",
-    "RifleAmmo",
-    "ShotgunShells",
-    "RevolverAmmo"
+    "bond",
+    "rifle_ammo",
+    "shotgun_shells",
+    "revolver_ammo"
   ],
   "auto_sack": [
-    "Bond",
-    "Bonds",
-    "RifleAmmo",
-    "ShotgunShells",
-    "RevolverAmmo"
+    "bond",
+    "rifle_ammo",
+    "shotgun_shells",
+    "revolver_ammo"
   ],
   "items": {
-    "Valuables": [
-      "Strange Mask",
-      "Fool's Gold",
-      "Gold Nugget",
-      "Gold Bar",
-      "Gold Statue",
-      "Gold Painting",
-      "Gold Cup",
-      "Gold Plate",
-      "Gold Watch",
-      "Silver Nugget",
-      "Silver Bar",
-      "Silver Statue",
-      "Silver Painting",
-      "Silver Cup",
-      "Silver Plate",
-      "Silver Watch",
-      "Stone Statue"
+    "valuables": [
+      "strange_mask",
+      "gold_nugget",
+      "gold_bar",
+      "gold_statue",
+      "gold_painting",
+      "gold_cup",
+      "gold_plate",
+      "gold_pocket_watch",
+      "silver_nugget",
+      "silver_bar",
+      "silver_statue",
+      "silver_painting",
+      "silver_cup",
+      "silver_plate",
+      "silver_pocket_watch",
+      "stone_statue"
     ],
-    "Entities": [
-      "Brain In Jar",
-      "Easter Bunny",
-      "Nikola Tesla",
-      "Captain Prescott",
-      "Goliath",
-      "Covenant Archer",
-      "Outlaw",
-      "Werewolf",
-      "Vampire",
-      "Unicorn"
+    "entities": [
+      "brain_jar"
     ],
-    "Weapons": [
-      "Jade Sword",
-      "Electrocutioner",
-      "Vampire Knife",
-      "Elephant Rifle",
-      "Crucifix",
-      "Holy Water",
-      "Rifle",
-      "Bolt-Action Rifle",
-      "Navy Revolver",
-      "Sawed-Off Shotgun",
-      "Shotgun",
-      "Cavalry Sword",
-      "Tomahawk",
-      "Revolver",
-      "Mauser"
+    "weapons": [
+      "jade_sword",
+      "vampire_knife",
+      "elephant_rifle",
+      "crucifix",
+      "holy_water",
+      "rifle",
+      "bolt_action_rifle",
+      "navy_revolver",
+      "sawed_off_shotgun",
+      "shotgun",
+      "cavalry_sword",
+      "tomahawk",
+      "revolver",
+      "mauser"
     ],
-    "Armor": [
-      "Chestplate",
-      "Helmet",
-      "Left Shoulder Armor",
-      "Right Shoulder Armor"
+    "armor": [
+      "armor_chestplate",
+      "armor_helmet",
+      "armor_pauldron_left",
+      "armor_pauldron_right"
     ],
-    "Junk": [
-      "Barrel",
-      "Chair",
-      "Rope",
-      "Wheel",
-      "Book",
-      "Banjo",
-      "Teapot",
-      "Vase",
-      "Glass Bottle",
-      "Wooden Painting"
+    "junk": [
+      "barrel",
+      "chair",
+      "rope",
+      "wheel",
+      "book",
+      "banjo",
+      "teapot",
+      "vase_1",
+      "vase_2",
+      "glass_bottle",
+      "wood_painting"
     ],
-    "Special": [
-      "Snake Oil",
-      "Bandage",
-      "Gold/Silver Bonds",
-      "Jade Tablet",
-      "Horse Cart",
-      "Gold Code/Bank Code"
+    "special": [
+      "snake_oil",
+      "bandage",
+      "bond",
+      "jade_tablet_1",
+      "jade_tablet_2",
+      "jade_tablet_3",
+      "jade_tablet_4",
+      "horse_cart"
     ]
   },
   "esp_mobs": [
@@ -161,6 +151,20 @@
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals"
           ]
+        },
+        {
+          "name": "Zombie Revolver Officer",
+          "model": "Model_ZombieRevolverOfficer",
+          "paths": [
+            "FortConstitution.Enemies.Model_ZombieRevolverOfficer"
+          ]
+        },
+        {
+          "name": "Zombie Sword Officer",
+          "model": "Model_ZombieSwordOfficer",
+          "paths": [
+            "FortConstitution.Enemies.Model_ZombieSwordOfficer"
+          ]
         }
       ]
     },
@@ -197,6 +201,13 @@
           "model": "Model_Banker",
           "paths": [
             "RuntimeEntities"
+          ]
+        },
+        {
+          "name": "Captain Prescott",
+          "model": "Model_CaptainPrescott",
+          "paths": [
+            "FortConstitution.Enemies.Model_CaptainPrescott"
           ]
         }
       ]
@@ -257,7 +268,8 @@
           "paths": [
             "",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
-            "Baseplates.Baseplate24.CenterBaseplate.Animals"
+            "Baseplates.Baseplate24.CenterBaseplate.Animals",
+            "Baseplates.Baseplate30.CenterBaseplate.Animal"
           ]
         },
         {
