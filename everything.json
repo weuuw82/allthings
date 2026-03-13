@@ -28,7 +28,8 @@
       "silver_cup",
       "silver_plate",
       "silver_pocket_watch",
-      "stone_statue"
+      "stone_statue",
+      "money_bag"
     ],
     "entities": [
       "brain_jar"
@@ -47,13 +48,31 @@
       "cavalry_sword",
       "tomahawk",
       "revolver",
-      "mauser"
+      "mauser",
+      "blunderbuss",
+      "bottle_rocket_launcher",
+      "crossbow",
+      "dynamite",
+      "firework_gun",
+      "flintlock",
+      "holy_hand_grenade",
+      "molotov",
+      "ray_pistol",
+      "ray_rifle",
+      "revolver_rifle",
+      "skeleton_grenade",
+      "spear",
+      "sword",
+      "thompson",
+      "ballista",
+      "tesla_cannon"
     ],
     "armor": [
       "armor_chestplate",
       "armor_helmet",
       "armor_pauldron_left",
-      "armor_pauldron_right"
+      "armor_pauldron_right",
+      "mining_helmet"
     ],
     "junk": [
       "barrel",
@@ -66,7 +85,19 @@
       "vase_1",
       "vase_2",
       "glass_bottle",
-      "wood_painting"
+      "wood_painting",
+      "coal",
+      "sheet_metal",
+      "ladder",
+      "crate",
+      "camera",
+      "campfire",
+      "torch",
+      "lantern",
+      "acid_barrel",
+      "acid_mine",
+      "poster_wanted",
+      "rock"
     ],
     "special": [
       "snake_oil",
@@ -76,7 +107,22 @@
       "jade_tablet_2",
       "jade_tablet_3",
       "jade_tablet_4",
-      "horse_cart"
+      "horse_cart",
+      "easter_egg_medium",
+      "easter_egg_small",
+      "electrocutioner",
+      "present",
+      "supply_depot_key",
+      "telegraph_halloween",
+      "strange_machine"
+    ],
+    "bank_combo": [
+      "bank_combo_1",
+      "bank_combo_2",
+      "bank_combo_3",
+      "bank_combo_4",
+      "bank_combo_5",
+      "bank_combo_note"
     ]
   },
   "esp_mobs": [
@@ -92,7 +138,9 @@
             "Towns.LargeTownTemplate.ZombiePart.Zombies",
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.DoctorDestroyed.StandaloneZombiePart.Zombies",
-            "RandomBuildings.House.StandaloneZombiePart.Zombies"
+            "RandomBuildings.House.StandaloneZombiePart.Zombies",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
@@ -104,7 +152,9 @@
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.DoctorDestroyed.StandaloneZombiePart.Zombies",
             "RandomBuildings.House.StandaloneZombiePart.Zombies",
-            "Towns.SmallTownTemplate.ZombiePart.Zombies"
+            "Towns.SmallTownTemplate.ZombiePart.Zombies",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
@@ -117,7 +167,9 @@
             "NightEnemies",
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.DoctorDestroyed.StandaloneZombiePart.Zombies",
-            "RandomBuildings.House.StandaloneZombiePart.Zombies"
+            "RandomBuildings.House.StandaloneZombiePart.Zombies",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
@@ -129,7 +181,9 @@
             "RandomBuildings.House.StandaloneZombiePart.Zombies",
             "Towns.LargeTownTemplate.ZombiePart.Zombies",
             "Towns.MediumTownTemplate.ZombiePart.Zombies",
-            "Towns.SmallTownTemplate.ZombiePart.Zombies"
+            "Towns.SmallTownTemplate.ZombiePart.Zombies",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
@@ -141,7 +195,9 @@
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.House.StandaloneZombiePart.Zombies",
             "Towns.LargeTownTemplate.ZombiePart.Zombies",
-            "Towns.MediumTownTemplate.ZombiePart.Zombies"
+            "Towns.MediumTownTemplate.ZombiePart.Zombies",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
@@ -149,21 +205,27 @@
           "model": "Model_AcidSkeleton",
           "paths": [
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
-            "Baseplates.Baseplate24.CenterBaseplate.Animals"
+            "Baseplates.Baseplate24.CenterBaseplate.Animals",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
           "name": "Zombie Revolver Officer",
           "model": "Model_ZombieRevolverOfficer",
           "paths": [
-            "FortConstitution.Enemies.Model_ZombieRevolverOfficer"
+            "FortConstitution.Enemies.Model_ZombieRevolverOfficer",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
           "name": "Zombie Sword Officer",
           "model": "Model_ZombieSwordOfficer",
           "paths": [
-            "FortConstitution.Enemies.Model_ZombieSwordOfficer"
+            "FortConstitution.Enemies.Model_ZombieSwordOfficer",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         }
       ]
@@ -178,7 +240,8 @@
             "RuntimeEntities",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
-            "NightEnemies"
+            "NightEnemies",
+            "RuntimeItems"
           ]
         },
         {
@@ -188,7 +251,8 @@
             "RuntimeEntities",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
-            "NightEnemies"
+            "NightEnemies",
+            "RuntimeItems"
           ]
         }
       ]
@@ -200,14 +264,35 @@
           "name": "Banker",
           "model": "Model_Banker",
           "paths": [
-            "RuntimeEntities"
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
           "name": "Captain Prescott",
           "model": "Model_CaptainPrescott",
           "paths": [
-            "FortConstitution.Enemies.Model_CaptainPrescott"
+            "FortConstitution.Enemies.Model_CaptainPrescott",
+            "RuntimeEntities",
+            "RuntimeItems"
+          ]
+        },
+        {
+          "name": "Zombie Revolver Officer",
+          "model": "Model_ZombieRevolverOfficer",
+          "paths": [
+            "FortConstitution.Enemies.Model_ZombieRevolverOfficer",
+            "RuntimeEntities",
+            "RuntimeItems"
+          ]
+        },
+        {
+          "name": "Zombie Sword Officer",
+          "model": "Model_ZombieSwordOfficer",
+          "paths": [
+            "FortConstitution.Enemies.Model_ZombieSwordOfficer",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         }
       ]
@@ -221,7 +306,8 @@
           "paths": [
             "RuntimeItems",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
-            "Baseplates.Baseplate24.CenterBaseplate.Animals"
+            "Baseplates.Baseplate24.CenterBaseplate.Animals",
+            "RuntimeEntities"
           ]
         },
         {
@@ -230,7 +316,8 @@
           "paths": [
             "RuntimeItems",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
-            "Baseplates.Baseplate24.CenterBaseplate.Animals"
+            "Baseplates.Baseplate24.CenterBaseplate.Animals",
+            "RuntimeEntities"
           ]
         },
         {
@@ -238,7 +325,9 @@
           "model": "Model_ShotgunOutlaw",
           "paths": [
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
-            "Baseplates.Baseplate24.CenterBaseplate.Animals"
+            "Baseplates.Baseplate24.CenterBaseplate.Animals",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         }
       ]
@@ -252,7 +341,8 @@
           "paths": [
             "RuntimeEntities",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
-            "Baseplates.Baseplate24.CenterBaseplate.Animals"
+            "Baseplates.Baseplate24.CenterBaseplate.Animals",
+            "RuntimeItems"
           ]
         },
         {
@@ -269,35 +359,41 @@
             "",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
-            "Baseplates.Baseplate30.CenterBaseplate.Animal"
+            "Baseplates.Baseplate30.CenterBaseplate.Animal",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
           "name": "Death Horse",
           "model": "Model_DeathHorse",
           "paths": [
-            "RuntimeEntities"
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
           "name": "War Horse",
           "model": "Model_WarHorse",
           "paths": [
-            "RuntimeEntities"
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
           "name": "Famine Horse",
           "model": "Model_FamineHorse",
           "paths": [
-            "RuntimeEntities"
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
           "name": "Pestilence Horse",
           "model": "Model_PestilenceHorse",
           "paths": [
-            "RuntimeEntities"
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         },
         {
@@ -312,7 +408,9 @@
           "model": "Model_Unicorn",
           "paths": [
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
-            "Baseplates.Baseplate24.CenterBaseplate.Animals"
+            "Baseplates.Baseplate24.CenterBaseplate.Animals",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         }
       ]
@@ -325,14 +423,17 @@
           "model": "Model_CovenantKnight",
           "paths": [
             "RuntimeEntities",
-            "StillwaterPrison.Enemies"
+            "StillwaterPrison.Enemies",
+            "RuntimeItems"
           ]
         },
         {
           "name": "Covenant Archer",
           "model": "Model_CovenantArcher",
           "paths": [
-            "StillwaterPrison.Enemies"
+            "StillwaterPrison.Enemies",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         }
       ]
@@ -344,7 +445,31 @@
           "name": "Goliath",
           "model": "Model_Goliath",
           "paths": [
-            "RuntimeEntities"
+            "RuntimeEntities",
+            "RuntimeItems"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Aliens",
+      "mobs": [
+        {
+          "name": "Melee Alien",
+          "model": "Model_MeleeAlien",
+          "paths": [
+            "Baseplates.Baseplate16.CenterBaseplate.Animals",
+            "RuntimeEntities",
+            "RuntimeItems"
+          ]
+        },
+        {
+          "name": "Raygun Alien",
+          "model": "Model_RaygunAlien",
+          "paths": [
+            "Baseplates.Baseplate16.CenterBaseplate.Animals",
+            "RuntimeEntities",
+            "RuntimeItems"
           ]
         }
       ]
