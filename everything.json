@@ -477,23 +477,19 @@
   ],
   "contributors": [
     { "name": "RINGTA", "role": "Owner" },
-    { "name": "BUBLIK6241", "role": "Co Owner" },
-    { "name": "Haru", "role": "Co Owner" },
-    { "name": "pineapple.juceismypookie", "role": "Developer" },
+    { "name": "Haru", "role": "Owner" },
     { "name": "mr_bloxy_god.5", "role": "Contributor" },
     { "name": "takeflighttofight", "role": "Contributor" },
     { "name": "Hop", "role": "Contributor" }
   ],
   "content_creators": [
-    { "name": "AlexScripter", "role": "Top Creator" },
-    { "name": "LeyDMurphy", "role": "Top Creator" },
-    { "name": "Roibox", "role": "Top Creator" },
-    { "name": "elicited", "role": "Top Creator" },
-    { "name": "itsadam4896", "role": "Top Creator" },
-    { "name": "Ray", "role": "Top Creator" },
-    { "name": "Something", "role": "Top Creator" },
-    { "name": "carlmcken", "role": "Creator" },
-    { "name": "senpai_444_yt", "role": "Creator" },
-    { "name": "baconhaxer1", "role": "Creator" }
+    { "name": "RINGTA", "role": "Top Creator" },
+    { "name": "Haru", "role": "Top Creator" },
+    { "name": "Could", "role": "Top Creator" },
+    { "name": "Be", "role": "Top Creator" },
+    { "name": "You", "role": "Top Creator" },
+    { "name": "I Dare You", "role": "Creator" },
+    { "name": "To Make It On To", "role": "Creator" },
+    { "name": "This List", "role": "Creator" }
   ]
 }
