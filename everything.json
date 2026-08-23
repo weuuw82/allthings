@@ -133,12 +133,21 @@
           "name": "Sheriff Zombie",
           "model": "Model_ZombieSheriff",
           "paths": [
+            "Towns.town_1.ZombiePart.Zombies",
+            "Towns.town_2.ZombiePart.Zombies",
+            "Towns.town_3.ZombiePart.Zombies",
+            "Towns.town_4.ZombiePart.Zombies",
+            "Towns.town_6.ZombiePart.Zombies",
+            "Towns.town_7.ZombiePart.Zombies",
+            "Towns.town_8.ZombiePart.Zombies",
             "Towns.SmallTownTemplate.ZombiePart.Zombies",
             "Towns.MediumTownTemplate.ZombiePart.Zombies",
             "Towns.LargeTownTemplate.ZombiePart.Zombies",
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.DoctorDestroyed.StandaloneZombiePart.Zombies",
             "RandomBuildings.House.StandaloneZombiePart.Zombies",
+            "RandomBuildings.Farm.StandaloneZombiePart.Zombies",
+            "RandomBuildings.GunsmithDestroyed.StandaloneZombiePart.Zombies",
             "RuntimeEntities",
             "RuntimeItems"
           ]
@@ -147,11 +156,20 @@
           "name": "Miner Zombie",
           "model": "Model_ZombieMiner",
           "paths": [
+            "Towns.town_1.ZombiePart.Zombies",
+            "Towns.town_2.ZombiePart.Zombies",
+            "Towns.town_3.ZombiePart.Zombies",
+            "Towns.town_4.ZombiePart.Zombies",
+            "Towns.town_6.ZombiePart.Zombies",
+            "Towns.town_7.ZombiePart.Zombies",
+            "Towns.town_8.ZombiePart.Zombies",
             "Towns.MediumTownTemplate.ZombiePart.Zombies",
             "Towns.LargeTownTemplate.ZombiePart.Zombies",
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.DoctorDestroyed.StandaloneZombiePart.Zombies",
             "RandomBuildings.House.StandaloneZombiePart.Zombies",
+            "RandomBuildings.Farm.StandaloneZombiePart.Zombies",
+            "RandomBuildings.GunsmithDestroyed.StandaloneZombiePart.Zombies",
             "Towns.SmallTownTemplate.ZombiePart.Zombies",
             "RuntimeEntities",
             "RuntimeItems"
@@ -161,6 +179,13 @@
           "name": "Runner Zombie",
           "model": "Model_Runner",
           "paths": [
+            "Towns.town_1.ZombiePart.Zombies",
+            "Towns.town_2.ZombiePart.Zombies",
+            "Towns.town_3.ZombiePart.Zombies",
+            "Towns.town_4.ZombiePart.Zombies",
+            "Towns.town_6.ZombiePart.Zombies",
+            "Towns.town_7.ZombiePart.Zombies",
+            "Towns.town_8.ZombiePart.Zombies",
             "Towns.SmallTownTemplate.ZombiePart.Zombies",
             "Towns.MediumTownTemplate.ZombiePart.Zombies",
             "Towns.LargeTownTemplate.ZombiePart.Zombies",
@@ -168,6 +193,8 @@
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.DoctorDestroyed.StandaloneZombiePart.Zombies",
             "RandomBuildings.House.StandaloneZombiePart.Zombies",
+            "RandomBuildings.Farm.StandaloneZombiePart.Zombies",
+            "RandomBuildings.GunsmithDestroyed.StandaloneZombiePart.Zombies",
             "RuntimeEntities",
             "RuntimeItems"
           ]
@@ -176,9 +203,19 @@
           "name": "Walker Zombie",
           "model": "Model_Walker",
           "paths": [
+            "Towns.town_1.ZombiePart.Zombies",
+            "Towns.town_2.ZombiePart.Zombies",
+            "Towns.town_3.ZombiePart.Zombies",
+            "Towns.town_4.ZombiePart.Zombies",
+            "Towns.town_6.ZombiePart.Zombies",
+            "Towns.town_7.ZombiePart.Zombies",
+            "Towns.town_8.ZombiePart.Zombies",
+            "RandomBuildings.OutlawGeneralStore.StandaloneZombiePart.Zombies",
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.DoctorDestroyed.StandaloneZombiePart.Zombies",
             "RandomBuildings.House.StandaloneZombiePart.Zombies",
+            "RandomBuildings.Farm.StandaloneZombiePart.Zombies",
+            "RandomBuildings.GunsmithDestroyed.StandaloneZombiePart.Zombies",
             "Towns.LargeTownTemplate.ZombiePart.Zombies",
             "Towns.MediumTownTemplate.ZombiePart.Zombies",
             "Towns.SmallTownTemplate.ZombiePart.Zombies",
@@ -190,10 +227,19 @@
           "name": "Armored Zombie",
           "model": "Model_ArmoredZombie",
           "paths": [
+            "Towns.town_1.ZombiePart.Zombies",
+            "Towns.town_2.ZombiePart.Zombies",
+            "Towns.town_3.ZombiePart.Zombies",
+            "Towns.town_4.ZombiePart.Zombies",
+            "Towns.town_6.ZombiePart.Zombies",
+            "Towns.town_7.ZombiePart.Zombies",
+            "Towns.town_8.ZombiePart.Zombies",
             "Towns.SmallTownTemplate.ZombiePart.Zombies",
             "RandomBuildings.DoctorDestroyed.StandaloneZombiePart.Zombies",
             "RandomBuildings.Doctor.StandaloneZombiePart.Zombies",
             "RandomBuildings.House.StandaloneZombiePart.Zombies",
+            "RandomBuildings.Farm.StandaloneZombiePart.Zombies",
+            "RandomBuildings.GunsmithDestroyed.StandaloneZombiePart.Zombies",
             "Towns.LargeTownTemplate.ZombiePart.Zombies",
             "Towns.MediumTownTemplate.ZombiePart.Zombies",
             "RuntimeEntities",
@@ -204,6 +250,10 @@
           "name": "Acid Skeleton",
           "model": "Model_AcidSkeleton",
           "paths": [
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "RuntimeEntities",
@@ -214,7 +264,7 @@
           "name": "Zombie Revolver Officer",
           "model": "Model_ZombieRevolverOfficer",
           "paths": [
-            "FortConstitution.Enemies.Model_ZombieRevolverOfficer",
+            "FortConstitution.Enemies",
             "RuntimeEntities",
             "RuntimeItems"
           ]
@@ -223,7 +273,7 @@
           "name": "Zombie Sword Officer",
           "model": "Model_ZombieSwordOfficer",
           "paths": [
-            "FortConstitution.Enemies.Model_ZombieSwordOfficer",
+            "FortConstitution.Enemies",
             "RuntimeEntities",
             "RuntimeItems"
           ]
@@ -238,6 +288,10 @@
           "model": "Model_Vampire",
           "paths": [
             "RuntimeEntities",
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "NightEnemies",
@@ -249,6 +303,10 @@
           "model": "Model_Werewolf",
           "paths": [
             "RuntimeEntities",
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "NightEnemies",
@@ -272,7 +330,7 @@
           "name": "Captain Prescott",
           "model": "Model_CaptainPrescott",
           "paths": [
-            "FortConstitution.Enemies.Model_CaptainPrescott",
+            "FortConstitution.Enemies",
             "RuntimeEntities",
             "RuntimeItems"
           ]
@@ -281,7 +339,7 @@
           "name": "Zombie Revolver Officer",
           "model": "Model_ZombieRevolverOfficer",
           "paths": [
-            "FortConstitution.Enemies.Model_ZombieRevolverOfficer",
+            "FortConstitution.Enemies",
             "RuntimeEntities",
             "RuntimeItems"
           ]
@@ -290,7 +348,7 @@
           "name": "Zombie Sword Officer",
           "model": "Model_ZombieSwordOfficer",
           "paths": [
-            "FortConstitution.Enemies.Model_ZombieSwordOfficer",
+            "FortConstitution.Enemies",
             "RuntimeEntities",
             "RuntimeItems"
           ]
@@ -305,6 +363,10 @@
           "model": "Model_RevolverOutlaw",
           "paths": [
             "RuntimeItems",
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "RuntimeEntities"
@@ -315,6 +377,10 @@
           "model": "Model_RifleOutlaw",
           "paths": [
             "RuntimeItems",
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "RuntimeEntities"
@@ -324,6 +390,10 @@
           "name": "Shotgun Outlaw",
           "model": "Model_ShotgunOutlaw",
           "paths": [
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "RuntimeEntities",
@@ -340,6 +410,10 @@
           "model": "Model_Wolf",
           "paths": [
             "RuntimeEntities",
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "RuntimeItems"
@@ -357,6 +431,10 @@
           "model": "Model_Horse",
           "paths": [
             "",
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "Baseplates.Baseplate30.CenterBaseplate.Animal",
@@ -400,6 +478,10 @@
           "name": "Reindeer",
           "model": "Model_Reindeer",
           "paths": [
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals"
           ]
         },
@@ -407,6 +489,10 @@
           "name": "Unicorn",
           "model": "Model_Unicorn",
           "paths": [
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "Baseplates.Baseplate24.CenterBaseplate.Animals",
             "RuntimeEntities",
@@ -458,6 +544,10 @@
           "name": "Melee Alien",
           "model": "Model_MeleeAlien",
           "paths": [
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "RuntimeEntities",
             "RuntimeItems"
@@ -467,6 +557,10 @@
           "name": "Raygun Alien",
           "model": "Model_RaygunAlien",
           "paths": [
+            "Baseplates.Baseplate1.CenterBaseplate.Animals",
+            "Baseplates.Baseplate2.CenterBaseplate.Animals",
+            "Baseplates.Baseplate3.CenterBaseplate.Animals",
+            "Baseplates.Baseplate4.CenterBaseplate.Animals",
             "Baseplates.Baseplate16.CenterBaseplate.Animals",
             "RuntimeEntities",
             "RuntimeItems"
