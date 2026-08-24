@@ -363,6 +363,7 @@
           "model": "Model_RevolverOutlaw",
           "paths": [
             "RuntimeItems",
+            "Baseplates.Baseplate39.EnemyBase.StandaloneZombiePart.Zombies",
             "Baseplates.Baseplate1.CenterBaseplate.Animals",
             "Baseplates.Baseplate2.CenterBaseplate.Animals",
             "Baseplates.Baseplate3.CenterBaseplate.Animals",
@@ -377,6 +378,7 @@
           "model": "Model_RifleOutlaw",
           "paths": [
             "RuntimeItems",
+            "Baseplates.Baseplate39.EnemyBase.StandaloneZombiePart.Zombies",
             "Baseplates.Baseplate1.CenterBaseplate.Animals",
             "Baseplates.Baseplate2.CenterBaseplate.Animals",
             "Baseplates.Baseplate3.CenterBaseplate.Animals",
@@ -390,6 +392,7 @@
           "name": "Shotgun Outlaw",
           "model": "Model_ShotgunOutlaw",
           "paths": [
+            "Baseplates.Baseplate39.EnemyBase.StandaloneZombiePart.Zombies",
             "Baseplates.Baseplate1.CenterBaseplate.Animals",
             "Baseplates.Baseplate2.CenterBaseplate.Animals",
             "Baseplates.Baseplate3.CenterBaseplate.Animals",
